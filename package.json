@@ -1,0 +1,11 @@
+{
+  "name": "sonicstage-pro-pwa",
+  "version": "0.12.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "start": "node dev-server.mjs",
+    "check": "node --check app.js && node --check dev-server.mjs && node --check sw.js"
+  }
+}
